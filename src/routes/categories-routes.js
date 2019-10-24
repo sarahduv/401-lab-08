@@ -71,4 +71,4 @@ module.exports.register = function(app) {
       .then( result => response.status(200).json(result) )
       .catch( next );
   }
-}
+};

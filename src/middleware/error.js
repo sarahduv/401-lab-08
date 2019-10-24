@@ -1,6 +1,6 @@
 'use strict';
 
-module.exports = (err, req, res, next) => {
+module.exports = (err, req, res) => {
   let error = { error: err };
   res.statusCode = 500;
   res.statusMessage = 'Server Error';
