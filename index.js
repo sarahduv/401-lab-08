@@ -3,6 +3,8 @@
 require('dotenv').config();
 const mongoose = require('mongoose');
 
+console.log('starting', process.env);
+
 const mongooseOptions = {
   useNewUrlParser:true,
   useCreateIndex: true,
